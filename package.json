@@ -1,0 +1,29 @@
+{
+  "name": "dci-flexcavo",
+  "version": "1.0.0",
+  "description": "How to apply TDD in a construction business",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samaronybarros/dci-flexcavo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samaronybarros/dci-flexcavo/issues"
+  },
+  "homepage": "https://github.com/samaronybarros/dci-flexcavo#readme",
+  "devDependencies": {
+    "@types/chai": "^4.3.1",
+    "@types/mocha": "^9.1.1",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
