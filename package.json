@@ -4,7 +4,8 @@
   "description": "How to apply TDD in a construction business",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tsc",
+    "test": "npm run build && mocha build/src/**/*.spec.js --exit"
   },
   "repository": {
     "type": "git",
